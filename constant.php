@@ -14,6 +14,16 @@
     
     $fruits=array('a'=>'apple','b'=>'banana');
     $fruits['']='rose';
+    echo "<pre>";
     print_r($fruits);
+    echo "</pre>";
+    $array2D=array($cars,$fruits);
+    echo "<br/>";
+    echo "<pre>";
+    print_r($array2D);
+    echo "</pre>";
+    
+    echo "<br/>";
+    echo $array2D[1]['b'];//array declaration  
     
     
