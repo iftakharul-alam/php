@@ -14,11 +14,16 @@
     
     //Unary oparator
     $a = 2;
-    echo $a++;//2
-    echo $a--;//3
-    echo ++$a;//3
-    echo --$a;//2
-    echo $a;//2
+    echo $a++.'<br/>';//2
+    echo $a--.'<br/>';//3
+    echo ++$a.'<br/>';//3
+    echo --$a.'<br/>';//2
+    echo $a.'<br/>';//2
+    echo $a.PHP_EOL;
+    echo $a;
     echo "<br/>";
     $a=4;$b=2;
-    echo ++$a * ($a++ + --$b);//30
+    echo ++$a * ($a++ + --$b).'<br/>';//30
+    $d='0';
+    echo (boolean)$d;
+    
