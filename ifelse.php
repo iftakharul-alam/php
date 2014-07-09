@@ -1,27 +1,27 @@
 <?php
-    $number=43;
-    echo "The Grade Of the student is = ";
-    if($number>=80)
+    $number=83;
+    echo "<h1>The Grade Of the student is = ";
+    if($number>79)
     {
         echo "A+";
     }
-    else if(79>=$number&&$number>=70)
+    else if($number>69)
     {
         echo "A";
     }
-    else if(69>=$number&&$number>=60)
+    else if($number>59)
     {
         echo "A-";
     }
-    else if(59>=$number&&$number>=50)
+    else if($number>49)
     {
         echo "B";
     }
-    else if(49>=$number&&$number>=40)
+    else if($number>39)
     {
         echo "C";
     }
-    else if(39>=$number&&$number>=34)
+    else if($number>32)
     {
         echo "D";
     }
