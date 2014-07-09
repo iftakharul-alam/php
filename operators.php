@@ -26,4 +26,17 @@
     echo ++$a * ($a++ + --$b).'<br/>';//30
     $d='0';
     echo (boolean)$d;
-    
+    $x=3;
+    $y="3";
+    if($x=$y)//assignment
+    {
+        echo "Hello Hi";
+    }
+    if($x==$y)//test for value
+    {
+        echo "Hello Hi";
+    }
+    if($x===$y)//test for type and value
+    {
+        echo "Hello";
+    }
