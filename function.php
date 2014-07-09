@@ -1,18 +1,19 @@
 <?php
+    echo "<h1>";
     function getGrade($marks)
     {
         if($marks>69)
         {
-            echo "A+";
+            $grade='A+';
         }
         else if($marks>29)
         {
-            echo "A";
+            $grade='A';
         }
         else
         {
-            echo "F";
+            $grade='F';
         }
-        return;
+        return $grade;
     }
-    echo "The Grade is = ".getGrade(78);
+    echo "The grade is now ".getGrade(95);    

@@ -7,7 +7,9 @@
     $cars = array('toyota','ferari','audi');
     echo gettype($cars);
     $cars['t']='Aston Martin';
+    
     echo "<br/>";
+    
     echo "<pre>";
     print_r($cars);//for printing array use print_r
     echo "</pre>";
