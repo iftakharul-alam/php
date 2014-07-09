@@ -2,7 +2,7 @@
     $name='Iftakharul Alam';
     for($i=1;$i<=5;$i++)
     {
-        echo $name."<br>";
-        echo "Added to git";
+        echo $name."<br/>";
+        echo "Added to git<br/>";
     }
         
