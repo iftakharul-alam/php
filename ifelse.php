@@ -1,5 +1,5 @@
 <?php
-    $number=63;
+    $number=43;
     echo "The Grade Of the student is = ";
     if($number>=80)
     {
