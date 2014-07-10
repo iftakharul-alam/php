@@ -1,6 +1,6 @@
 <?php
     echo "<h1>";
-    function getGrade($marks)
+    function getGrade1($marks)
     {
         if($marks>69)
         {
@@ -16,35 +16,46 @@
         }
         return $grade;
     }
-    echo "The grade is now    ".getGrade(95);   
-    //---------------------------------------------
-    echo '<br/>----------------------------------<br/>';
-    echo "<pre>";
+    echo "The grade is now    ".getGrade1(95); 
     
-    $cars = array(
-                array('one','two','three','four'),
-                array('1  ','2  ','3    ')
-            );
+    echo "<br/>----------------------------------------<br/>";
     
-    $laravel = array('I','II','III','IV');
+    function printGrade($marks)
+    {
+       if($marks > 50)
+       {
+            echo 'A';  
+       }
+       else
+       {
+            echo 'F';
+       }
+       
+       return;
+    }
     
-    $cars[2][] = $laravel;
+    printGrade(90);
     
-    print_r ($cars);
+    echo "<br/>----------------------------------------<br/>";
     
-    echo '<br/>----------------------------------<br/>';
+    function getGrade($marks)
+    {
+       $grade = '';
+       if($marks > 50)
+       {
+            $grade = 'A';  
+       }
+       else
+       {
+            $grade = 'F';
+       }
+       
+       return $grade;
+    }
     
-    $cars = array('one','two','three','four');
-    $fruits = array(1,2,3,4);
-    $laravel = array('I','II','III','IV');
+    $grade = getGrade(90);
     
-    
-    
-    
-    
-    
-    
-    
+    echo "<br/>----------------------------------------<br/>";
     
     
     
