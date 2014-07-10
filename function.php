@@ -59,14 +59,14 @@
        return $grade;
     }
     
-    $grade = getGrade(70);
     
-    function echoGrade($grade)
+    function echoGrade($marks)
     {
+        $grade = getGrade($marks);
         echo $grade;
     }
     
-    echoGrade($grade);
+    echoGrade(40);
     
     echo "<br/>----------------------------------------<br/>";
     
