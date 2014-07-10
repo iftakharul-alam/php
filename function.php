@@ -38,9 +38,15 @@
     
     echo "<br/>----------------------------------------<br/>";
     
-    function getGrade($marks)
+    function getGrade($marks = '')
     {
+        if($marks>100)
+        {
+            return;
+        }
+        
        $grade = '';
+       
        if($marks > 50)
        {
             $grade = 'A';  
@@ -53,7 +59,14 @@
        return $grade;
     }
     
-    $grade = getGrade(90);
+    $grade = getGrade(70);
+    
+    function echoGrade($grade)
+    {
+        echo $grade;
+    }
+    
+    echoGrade($grade);
     
     echo "<br/>----------------------------------------<br/>";
     
