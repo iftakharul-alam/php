@@ -6,7 +6,7 @@
         
         function getName()
         {
-            
+           return 'FTFL2'; 
         }
     }
     
@@ -14,6 +14,7 @@
     
     var_dump($user);        //debug the user object
     
-    echo $user->name;       //accessing a property of a object
+    echo $user->name;     //accessing a property of a object
     
+    echo $user->getName();
     
