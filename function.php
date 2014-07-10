@@ -70,11 +70,6 @@
     
     echo "<br/>----------------------------------------<br/>";
     
-    $film = array(
-            'genres' => array('comedy','tragedy','action','romance'),
-            'film_title' => array('Big','Star Wars','Titnic','French Kiss'),
-            'stars' => array('Bill Murry','Mark Hammel','Leonardo Decaprio','Cate Blanchell'),
-        );
     
     
     
@@ -94,17 +89,30 @@
             echo 'Slug : '.strtolower($film['stars'][0]).'<br/>';
         }
         
-        else if($type == $film['tragedy'][0])
+        else if($type == $film['genres'][1])
         {
-            echo 'Film Title : '.$film['film_title'][0].'<br/>';
-            echo 'Stars : '.$film['stars'][0].'<br/>';
-            echo 'Slug : '.strtolower($film['stars'][0]).'<br/>';
+            echo 'Film Title : '.$film['film_title'][1].'<br/>';
+            echo 'Stars : '.$film['stars'][1].'<br/>';
+            echo 'Slug : '.strtolower($film['stars'][1]).'<br/>';
         }
         
+        else if($type == $film['genres'][2])
+        {
+            echo 'Film Title : '.$film['film_title'][2].'<br/>';
+            echo 'Stars : '.$film['stars'][2].'<br/>';
+            echo 'Slug : '.strtolower($film['stars'][2]).'<br/>';
+        }
+        
+        else if($type == $film['genres'][3])
+        {
+            echo 'Film Title : '.$film['film_title'][3].'<br/>';
+            echo 'Stars : '.$film['stars'][3].'<br/>';
+            echo 'Slug : '.strtolower($film['stars'][3]).'<br/>';
+        }
         
     }
     
-    filmSummary('tragedy');
+    filmSummary('romance');
     
     
     
