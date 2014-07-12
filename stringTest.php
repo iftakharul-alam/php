@@ -17,3 +17,8 @@
 	
 	$str = "Hello world!";
 	echo chunk_split($str,2,".");
+	
+	echo '<br/>';
+	
+	$str = "Hello World!";
+	echo count_chars($str,3);
