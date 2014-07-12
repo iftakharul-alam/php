@@ -58,6 +58,10 @@
 	echo $str . "<br>";
 	echo trim($str,"H ld!");
 	
+	echo '<br/>';
+	
+	echo similar_text("Hello World","Hello Peter");
+	
 	
 	
 	
