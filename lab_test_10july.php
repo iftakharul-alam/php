@@ -8,7 +8,7 @@
 			'stars' => array('Bill Murray','Mark Hammel','Leonardo Decaprio','Cate Blanchett')
 			);
 	
-	//GET THE FILM-NAME FROM THE GIVE ARRAY
+	//GET THE FILM-NAME FROM THE GIVEN ARRAY USING THIS FUNCTION
 	
 	function getFilmName($type)
 	{
@@ -23,7 +23,7 @@
 		return $film_title;
 	}
 	
-	//GET THE FILM-STAR FROM THE GIVEN ARRAY
+	//GET THE FILM-STAR FROM THE GIVEN ARRAY  USING THIS FUNCTION
 	
 	function getStars($type)
 	{
@@ -41,28 +41,33 @@
 	//
 	echo "<pre><h2>";
 	
-	//SHOW THE FILM-NAME
+	//SHOW THE FILM-NAME USING THIS FUNCTION
 	
 	function showStars($type)
 	{
-		echo "Starring   : ".getStars($type).'('.strtolower(str_replace(' ', '-', getStars($type))).')';
+		echo "Starring   : ".getStars($type).'('.strtolower(str_replace(' ', '-', getStars($type))).')<br/>';
 	}
 	
-	//SHOW THE FILM-STAR
+	//SHOW THE FILM-STAR USING THIS FUNCTION
 	
 	function showFilmName($type)
 	{
-		echo "Film Title : ".getFilmName($type).'('.strtolower(str_replace(' ', '-', getFilmName($type))).')';
+		echo "Film Title : ".getFilmName($type).'('.strtolower(str_replace(' ', '-', getFilmName($type))).')<br/>';
 	}
 	
-	//CALL FUNCTION BY GENRES
+	//Intergate showStars and showFilmName
+	// in one function so that all info
+	// can get by calling only one function
 	
-	echo showStars('action')."<br/>";
+	function filmGenres($type)
+	{
+		showStars($type);
+		showFilmName($type);
+	}
 	
-	echo showFilmName('action');
+	//Call function by the Genres to get all info
 	
-	
-	
+	echo filmGenres('action');
 	
 	
 	
