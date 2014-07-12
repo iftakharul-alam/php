@@ -66,6 +66,10 @@
 	
 	echo str_replace("world","Peter","Hello world!");
 	
+	echo '<br/>';
+	
+	echo str_repeat("A.A",13);
+	
 	
 	
 	
