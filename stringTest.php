@@ -32,3 +32,36 @@
 	
 	$arr = array('Hello','World!','Beautiful','Day!');
 	echo implode(" ",$arr);
+	
+	echo '<br/>';
+	
+	$str = "Hello";
+	echo md5($str);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
