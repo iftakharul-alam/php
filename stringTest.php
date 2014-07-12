@@ -70,6 +70,10 @@
 	
 	echo str_repeat("A.A",13);
 	
+	echo '<br/>';
+	
+	echo str_shuffle("Hello World");
+	
 	
 	
 	
