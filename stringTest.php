@@ -22,3 +22,8 @@
 	
 	$str = "Hello World!";
 	echo count_chars($str,3);
+	
+	echo '<br/>';
+	
+	$str = "Hello world. It's a beautiful day.";
+	print_r (explode(" ",$str));
