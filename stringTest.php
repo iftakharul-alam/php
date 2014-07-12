@@ -62,6 +62,10 @@
 	
 	echo similar_text("Hello World","Hello Peter");
 	
+	echo '<br/>';
+	
+	echo str_replace("world","Peter","Hello world!");
+	
 	
 	
 	
