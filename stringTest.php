@@ -52,6 +52,12 @@
 	$str = "Beijing";
 	printf("There are %u million bicycles in %s.",$number,$str);
 	
+	echo '<br/>';
+	
+	$str = "Hello Hi World!";
+	echo $str . "<br>";
+	echo trim($str,"H ld!");
+	
 	
 	
 	
