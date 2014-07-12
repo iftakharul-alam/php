@@ -74,6 +74,9 @@
 	
 	echo str_shuffle("Hello World");
 	
+	echo '<br/>';
+	
+	print_r(str_split("Hello"));
 	
 	
 	
