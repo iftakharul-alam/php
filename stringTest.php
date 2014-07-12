@@ -12,3 +12,8 @@
 	$str = "Hello World!";
 	echo $str . "<br>";
 	echo chop($str,"World!");
+	
+	echo '<br/>';
+	
+	$str = "Hello world!";
+	echo chunk_split($str,2,".");
