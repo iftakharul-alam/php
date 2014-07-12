@@ -42,6 +42,10 @@
 	
 	echo nl2br("One line.\nAnother line.");
 	
+	echo '<br/>';
+	
+	print "Hello world!";
+	
 	
 	
 	
