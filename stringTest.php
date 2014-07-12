@@ -38,6 +38,10 @@
 	$str = "Hello";
 	echo md5($str);
 	
+	echo '<br/>';
+	
+	echo nl2br("One line.\nAnother line.");
+	
 	
 	
 	
