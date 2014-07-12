@@ -78,6 +78,10 @@
 	
 	print_r(str_split("Hello"));
 	
+	echo '<br/>';
+	
+	echo str_word_count("Hell o world!");
+	
 	
 	
 	
