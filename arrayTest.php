@@ -54,6 +54,44 @@
 	$a2=array("blue","yellow");
 	print_r(array_merge($a1,$a2));
 	
+	echo "<br/>";
+	
+	$a=array("red","green","blue");
+	array_pop($a);
+	print_r($a);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
