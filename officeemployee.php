@@ -1,5 +1,5 @@
 <?php
-	class Employee
+	class OfficeEmployee
 	{
 		public $id;
 		public $name;
