@@ -35,3 +35,50 @@
 	$a1=array("a"=>"red","b"=>"green","c"=>"blue","d"=>"yellow");
 	$result=array_flip($a1);
 	print_r($result);
+	
+	echo "<br/>";
+	
+	$a=array("Volvo"=>"XC90","BMW"=>"X5");
+	if (array_key_exists("Volvo",$a))
+	{
+		echo "Key exists!";
+	}
+	else
+	{
+		echo "Key does not exist!";
+	}
+	
+	echo "<br/>";
+	
+	$a1=array("red","green");
+	$a2=array("blue","yellow");
+	print_r(array_merge($a1,$a2));
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
