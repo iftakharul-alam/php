@@ -94,6 +94,10 @@
 	$a=array("a"=>"Volvo","b"=>"BMW","c"=>"Toyota");
 	print_r(array_reverse($a));
 	
+	echo "<br/>";
+	
+	$a=array("a"=>"red","b"=>"green","c"=>"blue");
+	echo array_search("red",$a);
 	
 	
 	
