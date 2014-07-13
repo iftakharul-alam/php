@@ -1,6 +1,6 @@
 
 <?php
-class information
+/*class information
 {
 	function id($data)
 	{
@@ -22,4 +22,68 @@ class information
 
 	$Information -> id('007');
 	$Information -> name('James');
-	$Information -> salary('10000');
+	$Information -> salary('10000'); */
+	
+?>
+<html>
+	<head>
+	
+	</head>
+	
+	<body>
+		<form action='oopClass1.php' method='post'>
+			<input type='text' name='idText'><br/>
+			<input type='text' name='nameText'><br/>
+			<input type='text' name='salaryText'><br/>
+			<input type='submit' name='submitButton' value='Submit'><br/>
+		</form>
+		<?php 
+
+			if (isset($_POST['submitButton']))
+			{
+				$id = $_POST['idText'];
+				$name = $_POST['nameText'];
+				$salary = $_POST['salaryText'];
+				echo "$id $name $salary";
+			}
+		
+			
+		?>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
