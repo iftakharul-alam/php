@@ -24,3 +24,14 @@
 	
 	$result=array_diff($a1,$a2);
 	print_r($result);
+	
+	echo "<br/>";
+	
+	$a1=array_fill(3,4,"blue");
+	print_r($a1);
+	
+	echo "<br/>";
+	
+	$a1=array("a"=>"red","b"=>"green","c"=>"blue","d"=>"yellow");
+	$result=array_flip($a1);
+	print_r($result);
