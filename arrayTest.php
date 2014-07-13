@@ -74,6 +74,23 @@
 	echo $a[$random_keys[1]]."<br>";
 	echo $a[$random_keys[2]];
 	
+	echo "<br/>";
+	
+	$a1=array("red","green");
+	$a2=array("blue","yellow");
+	print_r(array_replace($a1,$a2));
+	
+	echo "<br/>";
+	
+	function myfunction($v1,$v2)
+	{
+		return $v1 . "-" . $v2;
+	}
+	$a=array("Dog","Cat","Horse");
+	print_r(array_reduce($a,"myfunction"));
+	
+	
+	
 	
 	
 	
