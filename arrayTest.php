@@ -89,6 +89,11 @@
 	$a=array("Dog","Cat","Horse");
 	print_r(array_reduce($a,"myfunction"));
 	
+	echo "<br/>";
+	
+	$a=array("a"=>"Volvo","b"=>"BMW","c"=>"Toyota");
+	print_r(array_reverse($a));
+	
 	
 	
 	
