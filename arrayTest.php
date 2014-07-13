@@ -133,6 +133,13 @@
 	array_unshift($a,"blue");
 	print_r($a);
 	
+	echo "<br/>";
+	
+	$a=array("Name"=>"Peter","Age"=>"41","Country"=>"USA");
+	print_r(array_values($a));
+	
+	echo "<br/>";
+	
 	
 	
 	
