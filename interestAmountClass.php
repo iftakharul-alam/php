@@ -6,7 +6,7 @@ class interestAmount {
    
    function get_total_amount()
    {
-       return $this->amount * $this->rate *$this->time/100;
+       return $this-> amount + $this->amount * $this->rate *$this->time/100;
        
    }
 }
