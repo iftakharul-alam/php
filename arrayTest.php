@@ -143,6 +143,11 @@
 	$cars=array("Volvo","BMW","Toyota");
 	echo count($cars);
 	
+	echo "<br/>";
+	
+	$people = array("Peter", "Joe", "Glenn", "Cleveland");
+	print_r (each($people));
+	
 	
 	
 	
