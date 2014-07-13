@@ -105,6 +105,10 @@
 	echo array_shift($a)."<br/>";
 	print_r ($a);
 	
+	echo "<br/>";
+	
+	$a=array("red","green","blue","yellow","brown");
+	print_r(array_slice($a,3));
 	
 	
 	
