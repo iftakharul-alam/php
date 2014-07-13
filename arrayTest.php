@@ -169,6 +169,11 @@
 	$number = range(0,5);
 	print_r ($number);
 	
+	echo "<br/>";
+	
+	$people=array("Peter","Joe","Glenn","Cleveland");
+	echo "The key from the current position is: " . key($people);
+	
 	
 	
 	
