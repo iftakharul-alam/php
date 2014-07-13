@@ -127,6 +127,11 @@
 	$a=array("a"=>"red","b"=>"green","c"=>"red");
 	print_r(array_unique($a));
 	
+	echo "<br/>";
+	
+	$a=array("a"=>"red","b"=>"green");
+	array_unshift($a,"blue");
+	print_r($a);
 	
 	
 	
