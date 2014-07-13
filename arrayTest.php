@@ -155,9 +155,16 @@
 	list($a, $b, $c) = $my_array;
 	echo "I have several animals, a $a, a $b and a $c.";
 	
+	echo "<br/>";
 	
+	$people = array("Peter", "Joe", "Glenn", "Cleveland");
 	
+	echo current($people) . "<br>";
+	echo next($people) . "<br>";
 	
+	echo reset($people);
+	
+	echo "<br/>";
 	
 	
 	
