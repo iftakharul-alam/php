@@ -39,16 +39,17 @@
 		</form>
 		<?php 
 		
-			
+			require 'employee.php';
 
 			if (isset($_POST['submitButton']))
 			{
+				$employeeObj = new Employee();
+				$employeeObj -> id = $_POST['idText'];
+				$employeeObj -> name = $_POST['nameText'];
+				$employeeObj -> salary = $_POST['salaryText'];
 				
 				
-				$id = $_POST['idText'];
-				$name = $_POST['nameText'];
-				$salary = $_POST['salaryText'];
-				echo "$id $name $salary";
+				echo $employeeObj -> id." ".$employeeObj -> name." ". $employeeObj -> salary;
 			}
 		
 			
