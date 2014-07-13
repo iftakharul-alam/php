@@ -3,7 +3,7 @@
         
     </head>
     <body>
-        <form action="test1.php" method="post">
+        <form action="simpleInterestCalculate.php" method="post">
             <table>
                 <tr><th>Simple Interest Calculator</th></tr>
                 <tr><td>Principal Amount :</td><td> <input type='text' name='amount'/></td></tr>
