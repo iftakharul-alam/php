@@ -174,6 +174,20 @@
 	$people=array("Peter","Joe","Glenn","Cleveland");
 	echo "The key from the current position is: " . key($people);
 	
+	echo "<br/>";
+	
+	$people = array("Peter", "Joe", "Glenn", "Cleveland");
+	
+	if (in_array("Glenn", $people))
+	{
+		echo "Match found";
+	}
+	else
+	{
+		echo "Match not found";
+	}
+	
+	echo "<br/>";
 	
 	
 	
