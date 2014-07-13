@@ -38,9 +38,13 @@
 			<input type='submit' name='submitButton' value='Submit'><br/>
 		</form>
 		<?php 
+		
+			
 
 			if (isset($_POST['submitButton']))
 			{
+				
+				
 				$id = $_POST['idText'];
 				$name = $_POST['nameText'];
 				$salary = $_POST['salaryText'];
