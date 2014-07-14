@@ -12,11 +12,11 @@
 
         function perimeter()
         {
-            return $this -> radius * 2 * pi();
+            return $this -> radius * 2 * constant('circleCalculation::pi');
         }
 
         function area()
         {
-            return 2 * pi() * pow($this -> radius,2);
+            return 2 * constant('circleCalculation::pi') * pow($this -> radius,2);
         }
     }
