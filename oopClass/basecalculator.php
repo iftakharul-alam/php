@@ -1,24 +1,22 @@
 <?php
     class basecalculator
     {
-        public $fnumber;
-        public $snumber;
 
-        function add_number()
+        function add_number($first_no,$second_no)
         {
-            return $this -> fnumber + $this -> snumber;
+            return $first_no+$second_no;
         }
-        function sub_number()
+        function sub_number($first_no,$second_no)
         {
-            return $this -> fnumber - $this -> snumber;
+            return $first_no-$second_no;
         }
-        function mult_number()
+        function mult_number($first_no,$second_no)
         {
-            return $this -> fnumber * $this -> snumber;
+            return $first_no*$second_no;
         }
-        function div_number()
+        function div_number($first_no,$second_no)
         {
-            return $this -> fnumber / $this -> snumber;
+            return $first_no/$second_no;
         }
 
     }

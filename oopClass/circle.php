@@ -1,5 +1,5 @@
 <?php
-    class circleareacal
+    class circle
     {
         public $radius;
 

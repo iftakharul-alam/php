@@ -4,8 +4,8 @@
     </head>
     <body>
         <form method="post" action="calculator.php">
-            First Number : <input type="text" name="fnumber"/><br/>
-            Second Number : <input type="text" name="snumber"/><br/>
+            First Number : <input type="text" name="first_no"/><br/>
+            Second Number : <input type="text" name="second_no"/><br/>
             <input type="submit" name="add" value="Add">
             <input type="submit" name="substract" value="Substract">
             <input type="submit" name="multiply" value="Multiply">
@@ -16,33 +16,27 @@
 
             $myCalculator = new basecalculator();
 
+            if((isset($_POST['first_no'])) && (isset($_POST['second_no'])))
+            {
+                $first_no = $_POST['first_no'];
+                $second_no = $_POST['second_no'];
+            }
+
             if(isset($_POST['add']))
             {
-
-                $myCalculator -> fnumber = $_POST['fnumber'];
-                $myCalculator -> snumber = $_POST['snumber'];
-                echo "Addition : ".$myCalculator -> add_number();
+                echo "Addition : ".$myCalculator -> add_number($first_no,$second_no);
             }
-            if(isset($_POST['substract']))
+            else if(isset($_POST['substract']))
             {
-
-                $myCalculator -> fnumber = $_POST['fnumber'];
-                $myCalculator -> snumber = $_POST['snumber'];
-                echo "Subtraction : ".$myCalculator -> sub_number();
+                echo "Subtraction : ".$myCalculator -> sub_number($first_no,$second_no);
             }
-            if(isset($_POST['multiply']))
+            else if(isset($_POST['multiply']))
             {
-
-                $myCalculator -> fnumber = $_POST['fnumber'];
-                $myCalculator -> snumber = $_POST['snumber'];
-                echo "Multiplication : ".$myCalculator -> mult_number();
+                echo "Multiplication : ".$myCalculator -> mult_number($first_no,$second_no);
             }
-            if(isset($_POST['divide']))
+            else if(isset($_POST['divide']))
             {
-
-                $myCalculator -> fnumber = $_POST['fnumber'];
-                $myCalculator -> snumber = $_POST['snumber'];
-                echo "Division : ".$myCalculator -> div_number();
+                echo "Division : ".$myCalculator -> div_number($first_no,$second_no);
             }
         ?>
     </body>
