@@ -7,14 +7,14 @@
             First Number : <input type="text" name="first_no"/><br/>
             Second Number : <input type="text" name="second_no"/><br/>
             <input type="submit" name="add" value="Add">
-            <input type="submit" name="substract" value="Substract">
+            <input type="submit" name="subtract" value="Substract">
             <input type="submit" name="multiply" value="Multiply">
             <input type="submit" name="divide" value="Divide">
         </form>
         <?php
             require 'basecalculator.php';
 
-            $myCalculator = new basecalculator();
+            $myCalculator = new calculator();
 
             if((isset($_POST['first_no'])) && (isset($_POST['second_no'])))
             {
@@ -24,19 +24,19 @@
 
             if(isset($_POST['add']))
             {
-                echo "Addition : ".$myCalculator -> add_number($first_no,$second_no);
+                echo "Addition : ".$myCalculator -> add($first_no,$second_no);
             }
-            else if(isset($_POST['substract']))
+            else if(isset($_POST['subtract']))
             {
-                echo "Subtraction : ".$myCalculator -> sub_number($first_no,$second_no);
+                echo "Subtraction : ".$myCalculator -> subtract($first_no,$second_no);
             }
             else if(isset($_POST['multiply']))
             {
-                echo "Multiplication : ".$myCalculator -> mult_number($first_no,$second_no);
+                echo "Multiplication : ".$myCalculator -> multiply($first_no,$second_no);
             }
             else if(isset($_POST['divide']))
             {
-                echo "Division : ".$myCalculator -> div_number($first_no,$second_no);
+                echo "Division : ".$myCalculator -> division($first_no,$second_no);
             }
         ?>
     </body>

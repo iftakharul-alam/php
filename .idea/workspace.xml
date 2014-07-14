@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff7c4d6-bf6b-4db1-b3ce-fece551070e9" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\xampp\htdocs\myProject\oopClass\circleareacal.php" afterPath="$PROJECT_DIR$/oopClass/circle.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oopClass/basecalculator.php" afterPath="$PROJECT_DIR$/oopClass/basecalculator.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oopClass/calculator.php" afterPath="$PROJECT_DIR$/oopClass/calculator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oopClass/circlearea.php" afterPath="$PROJECT_DIR$/oopClass/circlearea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="class.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +29,7 @@
       <file leaf-file-name="circlearea.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oopClass/circlearea.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="7" selection-start="535" selection-end="535" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="408">
+            <state line="18" column="7" selection-start="535" selection-end="535" vertical-scroll-proportion="-14.538462" vertical-offset="0" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -41,7 +38,7 @@
       <file leaf-file-name="circle.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oopClass/circle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="272">
+            <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.8076923" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -50,7 +47,7 @@
       <file leaf-file-name="calculator.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oopClass/calculator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="83" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.7699642" vertical-offset="0" max-vertical-offset="839">
+            <state line="16" column="32" selection-start="595" selection-end="595" vertical-scroll-proportion="0.34610778" vertical-offset="47" max-vertical-offset="1008">
               <folding />
             </state>
           </provider>
@@ -59,7 +56,7 @@
       <file leaf-file-name="basecalculator.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oopClass/basecalculator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="40" selection-start="472" selection-end="472" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="459">
+            <state line="4" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="-2.8" vertical-offset="0" max-vertical-offset="567">
               <folding />
             </state>
           </provider>
@@ -91,6 +88,34 @@
     <option name="y" value="-8" />
     <option name="width" value="1296" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,6 +202,10 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../phpTest" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -408,28 +437,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oopClass/circle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="272">
+        <state line="1" column="16" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.8076923" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oopClass/circlearea.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="535" selection-end="535" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="408">
+        <state line="18" column="7" selection-start="535" selection-end="535" vertical-scroll-proportion="-14.538462" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oopClass/basecalculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="472" selection-end="472" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="459">
+        <state line="4" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="-2.8" vertical-offset="0" max-vertical-offset="567">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oopClass/calculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="83" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.7699642" vertical-offset="0" max-vertical-offset="839">
+        <state line="16" column="32" selection-start="595" selection-end="595" vertical-scroll-proportion="0.34610778" vertical-offset="47" max-vertical-offset="1008">
           <folding />
         </state>
       </provider>

@@ -1,20 +1,20 @@
 <?php
-    class basecalculator
+    class calculator
     {
 
-        function add_number($first_no,$second_no)
+        function add($first_no,$second_no)
         {
             return $first_no+$second_no;
         }
-        function sub_number($first_no,$second_no)
+        function subtract($first_no,$second_no)
         {
             return $first_no-$second_no;
         }
-        function mult_number($first_no,$second_no)
+        function multiply($first_no,$second_no)
         {
             return $first_no*$second_no;
         }
-        function div_number($first_no,$second_no)
+        function division($first_no,$second_no)
         {
             return $first_no/$second_no;
         }
